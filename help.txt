@@ -1,0 +1,19 @@
+# Criando ambiente virtual
+
+• py -3 -m venv venv
+• venv/Scripts/activate
+
+# Se o windows estiver como restrito para execução do script
+# Executar o powershell como administrador e executar o seguinte comando
+# Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+
+• pip install flask
+• $env:FLASK_APP = "main"
+• flask run
+
+Para adicionar código python deve abrir a tag "{% ... %}"
+Para fechar o loop é necessário finalizar com a tag  "{% endfor %}"
+
+app = Flask(__name__)
+if __name__ == '__main__':    
+    app.run(debug=True)
